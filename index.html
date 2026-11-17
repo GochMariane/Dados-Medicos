@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários Médicos</title>
+</head>
+<body>
+    <header>
+        <h1>Formulários Médicos</h1>
+    </header>
+
+    <main>
+        <div class="cartão">
+            <h2>Apresentação</h2>
+            <p>Site para agilização de fórmularios médicos. nosso foco agilidade e rapidez!</p>
+        <div class="area-imagem">
+        <img
+           src="formulariosmedicos.jpg"
+           alt="Uma profissional de saúde atenciosa e sorridente,<br>
+            vestindo scrubs azul-marinho e um cordão de identificação,<br>
+            sentada à sua mesa em um consultório médico moderno,<br>
+            concentrada em preencher um formulário digital em um tablet."
+            >
+        
+    <form>
+            <h3>Insira seus dados e entraremos em contato </h3> 
+            <p>
+        <label for="nome-visitante">Seu Nome:</label>
+        <input type="text" id="nome-visitante" placeholder="Digite seu nome">
+        <label for="email"> E-MAIL: </label>
+        <input type="email" id="email" placeholder="EX:jbiuld@gmail.com" required>
+            </p>
+
+         <fieldset>
+          <legend>1. Escolha apenas UMA opção favorita:</legend>
+          
+          <input type="radio" id="op1" name="AZUL" value="opcao1">
+          <label for="op1">Azul</label><br>
+
+          <input type="radio" id="op2" name="VERMELHO" value="opcao2">
+          <label for="op2">Vermelho</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>2. Marque TODAS as opções gostaria de serem abordadas (Checkbox):</legend>
+
+          <input type="checkbox" id="check1" name="interesses" value="item1">
+          <label for="check1">Médicos</label><br>
+
+          <input type="checkbox" id="check2" name="interesses" value="item2">
+          <label for="check2">Enfermeiros</label><br>
+
+          <input type="checkbox" id="check3" name="interesses" value="item3">
+          <label for="check3">Psicólogos</label>
+        </fieldset>
+
+        <button type="submit">Enviar Respostas</button>
+
+    </form>
+</main>
+    <footer>
+        <p>Atividade de fixação/Senai 2026</p>
+    </footer>
+
+    
+</body>
+</html>
